@@ -1,0 +1,50 @@
+.optionalAuth{
+    @apply text-white bg-[#3b5998] hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center  mr-2 mb-2 w-full;
+}
+
+.divider{
+    @apply text-center overflow-hidden before:h-[1px] after:h-[1px] after:bg-white 
+    after:inline-block after:relative after:align-middle after:w-1/4 
+    before:bg-white before:inline-block before:relative before:align-middle 
+    before:w-1/4 before:right-2 after:left-2 text-xl p-4;
+}
+
+.sign-container{
+    @apply w-full max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700 m-auto mt-3;
+}
+
+.form-header{
+    @apply text-xl font-medium text-gray-900 dark:text-white;
+}
+
+.form-label{
+    @apply block mb-2 text-sm font-medium text-gray-900 dark:text-white
+}
+
+.email-field{
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white;
+}
+
+.password-field{
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white;
+}
+
+.checkbox-field{
+    @apply w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800;
+}
+
+.checkbox-text{
+    @apply ml-2 text-sm font-medium text-gray-900 dark:text-gray-300;
+}
+
+.password-recover{
+    @apply ml-auto text-sm text-blue-700 hover:underline dark:text-blue-500;
+}
+
+.submit-btn{
+    @apply w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
+}
+
+.register-msg{
+    @apply text-sm font-medium text-gray-500 dark:text-gray-300
+}
